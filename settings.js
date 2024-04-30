@@ -3,11 +3,11 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env'
 function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
-global.email = 'vajirarathnayaka891@gmail.com'
-global.github = 'https://github.com/VajirTech/VAJIRA-MD'
-global.location = 'Srilanka Colombo'
+global.email = 'sulimanafridi098@gmail.com'
+global.github = 'https://github.com/QXS-871'
+global.location = 'Peshawar Pakistan'
 global.packname = '𝚜𝚝𝚒𝚌𝚔𝚎𝚛 𝚋𝚢';
-global.author = '𝙑𝘼𝙅𝙄𝙍𝘼 𝙈𝘿';
+global.author = 'SHaYan AFriDi';
 global.mess = {
     banned: '`You are *Banned* fron using commands!`',
     bangc: '`This Group is *Banned* from using Commands!`',
@@ -39,7 +39,7 @@ ALWAYS_ONLINE:  process.env.ALWAYS_ONLINE  || false  ,
 WORK_TYPE: process.env.WORK_TYPE || 'private'  ,
 ANTI_LINK: process.env.ANTI_LINK || false  ,
 ANTI_BOT: process.env.ANTI_BOT || false  ,
-OWNER_NUMBER: process.env.OWNER_NUMBER || '94719199757'  ,    
+OWNER_NUMBER: process.env.OWNER_NUMBER || '923140529832'  ,    
 ALIVE: process.env.ALIVE || `default`,
 OWNER_NAME: process.env.OWNER_NAME || 'Vajira' ,     
 AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || false  ,    
